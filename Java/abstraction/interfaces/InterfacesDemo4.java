@@ -1,0 +1,40 @@
+package abstraction.interfaces;
+
+interface Camera{
+	public void clickPic();
+}
+interface PhoneCalls{
+	public void calling();
+}
+
+class Landline implements PhoneCalls{
+	public void calling() {
+		System.out.println("Calling contact through landline");
+	}
+}
+/*
+ * Below We have implemented two different interfaces with the class Mobile.
+ * Meaning We have made two interfaces as the parents of Mobile class.
+ * Hence multiple inheritance in Java is allowed with interfaces.
+ * But We cannot do multiple inheritance with classes, meaning We cannot make more than one class as parent.
+ */
+
+class Mobile implements Camera, PhoneCalls{
+
+	@Override
+	public void calling() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void clickPic() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
+
+public class InterfacesDemo4 {
+
+}
