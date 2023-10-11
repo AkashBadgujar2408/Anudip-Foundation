@@ -1,13 +1,13 @@
 package inheritance;
 
-class LivingThings{
+class LivingThing{
 	
 	public void movements() {
 		
 		System.out.println("This being is moving...");
 	}
 }
-class Birds extends LivingThings{
+class Bird extends LivingThing{
 	
 	public void layingEggs() {
 		
@@ -21,13 +21,13 @@ public class UpcastingDemo1 {
 		 * b is the reference variable which is pointing to the memory location 
 		 * where the object of Birds class is made.
 		 */
-		Birds b=new Birds();
+		Bird b=new Bird();
 		b.movements();
 		/*
 		 * Below is upcasting. Here we are making the object of child class and 
 		 * referring it with a variable of the parent type.
 		 */
-		LivingThings l=new Birds(); 
+		LivingThing l=new Bird(); 
 		l.movements();
 		//l.layingEggs();
 	}

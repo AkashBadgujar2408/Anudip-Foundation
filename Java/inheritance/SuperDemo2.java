@@ -33,6 +33,7 @@ class Plant extends Garden{
 public class SuperDemo2 {
 	public static void main(String[] args) {
 		Plant p = new Plant();
+		Plant p2 = new Plant("Lily");
 		
 	}
 }
