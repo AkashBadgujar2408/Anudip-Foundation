@@ -1,0 +1,40 @@
+String is a final predefined class.
+String objects are used to store sequence of characters.
+
+Since String is a final class We will not be able to extend any class to this String class.
+
+String literals create objects in SCP(String Constant Pool). It provides memory management.
+
+When We store data in String object, each character is given an index starting from 0 to length-1.
+String is a class so it has many methods in it. Most commonly used methods are:-
+
+1) length(): This method will give you the total number of characters in the String.
+2) charAt(index): This method will get the character present in the given index.
+3) toUpperCase(): This method returns a new String object in which all letters are in capital.
+4) toLowerCase(): This method returns a new String object in which all letters are in small.
+5) contains(word): This method returns true if it finds the given word in a String otherwise it returns false.
+6) replace(oldChar, newChar): This method returns a new String in which all the old character is replaced
+								by new character.
+7) replace(oldString,newString): This method returns a new String in which all the old String is replaced
+								by new String.
+8) replaceFirst(oldString,newString): This method returns a new String where only the first occurrence of the
+								word old String is replaced by new String.
+9) indexOf(char): This method returns the index of the first occurrence of the given character.
+10)lastIndexOf(char): This method returns the index of the last occurrence of the given character.
+11)indexOf(String): This method returns the index of the first occurrence of the given String.
+12)indexOf(char, startIndex): This method returns the index of the first occurrence of the given character
+							starting the search from given startIndex.
+13)indexOf(String, startIndex): This method returns the index of the first occurrence of the given String
+							starting the search from given startIndex.
+14)substring(index): This method returns a new String in which there are all characters of the original
+							String starting from the given index.
+15)substring(startIndex, offsetIndex): This method returns a new String in which there are all characters
+							from the original String from the given startIndex upto offsetIndex-1.
+							We will not see the character present in offsetIndex.
+16)startsWith():
+17)endsWith():
+18)equals():
+19)equalsIgnoreCase():
+20)compareTo():
+21)compareToIgnoreCase():
+22)concat(): It will create a new object will all the new characters attached to original value.
