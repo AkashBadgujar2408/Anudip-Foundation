@@ -1,0 +1,13 @@
+2) What is the difference between Compilable class and Executable class.
+
+Compilable Class:
+	- A compilable class can only be compiled but not able to be executed on its own.
+	- Compilable class do not have any main method in it.
+	- It is not necessary to use compilable class in a program.
+	- There can be multiple compilable classes in a project.
+	
+Executable Class:
+	- A executable class can be both compiled and executed.
+	- Executable class has main method inside it.
+	- It is necessary to use executable class in a program.
+	- Only one executable class is made inside a project.

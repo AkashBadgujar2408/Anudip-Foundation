@@ -22,6 +22,13 @@ package abstraction.interfaces;
  * 
  * 7) A class can implement more than one interface.
  * 
+ * 8) A class can do both - extend another class and implement many interfaces at the same time.
+ * 
+ * 9) We can make nested interfaces also.
+ * 
+ * 10) If in case a class does not want to implement all the methods of an interface then the class has to declare itself
+ * as abstract.
+ * 
  */
 interface ClothingApp{
 	String addToCart(String s);

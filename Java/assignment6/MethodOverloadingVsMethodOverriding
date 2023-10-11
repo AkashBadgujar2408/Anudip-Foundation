@@ -1,0 +1,20 @@
+4) Write the difference between method overloading and method overriding.
+
+Method Overloading:
+	- Method overloading refers to the process of having multiple methods in a class with the same name but 
+	difference in the number, type or order of parameters.
+	- No two methods with the same number, type and order of parameters are allowed in a single class.
+	- Method overloading is a compile-time polymorphism.
+	- Method overloading is performed in the class.
+	- Parameters must be different in method overloading.
+	- Return type is not considered in method overloading.
+
+Method Overriding:
+	- Method Overriding is the process of changing the behaviour of the inherited method in the child object.
+	- The visibility of the inherited method can only be increased to a higher visibility but the opposite is
+	not possible. eg. a private method in parent class can be converted to protected in child class.
+	But converting a protected method in parent class to private method in child class is not possible.
+	- Method overriding is a run-time polymorphism.
+	- Method overriding happens between two classes having IS-A (inheritance) relationship.
+	- Parameters must be same in method overriding.
+	- In method overriding, the return type must be same or covariant as that of the parent class.

@@ -1,0 +1,21 @@
+Difference between Abstract class and Interface
+1) abstract classes can have both abstract and concrete methods, meaning abstract class gives partial abstraction.
+	Interfaces have by default all abstract methods, hence it gives 100% or full abstraction.
+	
+2) Abstract class can have constructors.
+	Interfaces cannot have constructors.
+	
+3) Abstract class is extended by another class using 'extends' keyword.
+	Interfaces are implemented by another class by 'implements' keyword.
+	
+4) A class can extend only one abstract class.
+	A class can implement many interfaces.
+	
+5) Abstract class can have variables of any type.
+	Interface have all variables by default public, static and final. 
+
+6) Abstract class does not support multiple inheritance.
+   Interface support multiple inheritance using implement keyword.
+   
+Note:- 
+Interface and abstract class reference can be made for upcasting.

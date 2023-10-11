@@ -1,0 +1,20 @@
+3) Write the difference between method and constructor
+Ans:
+	Methods:
+	- Methods are the set of statements that are used to perform a particular task.
+	- Methods can be called multiple times from an object.
+	- Methods have return type (void,String,int etc)
+	- Compiler cannot add methods by itself. The user has to define the methods.
+	- When multiple methods with the same name but different signature (type, order or number of parameters)
+	is made it is called "Method Overloading".
+	
+	Constructors:
+	- Constructors are the specialized methods that have the same name as that of the class which does not have
+	any return type.
+	- Constructors would be called and executed at the time of object creation.
+	- Constructors are called only once per an object.
+	- Constructors do not have any return type.
+	- The major use of constructor is to initialize the instance variables at the time of object creation.
+	- By default a constructor is added by the compiler if not defined by user.
+	- When multiple constructors with the same name but different signature (type, order or number of parameters)
+	is made it is called "Constructor Overloading".
